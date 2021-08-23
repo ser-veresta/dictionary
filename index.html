@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <style>
+      .container {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 500px;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <label for="word">Enter the word: </label>
+      <input type="text" id="word" autocomplete="off" />
+      <p id="fact"></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
